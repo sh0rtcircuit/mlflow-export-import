@@ -1,10 +1,14 @@
 
 from setuptools import setup, find_packages
+
+with open("README.md") as f:
+    long_description = f.read()
   
 setup(name="mlflow_export_import",
       version="1.0.0",
       author="Andre M",
       description="MLflow export/import experiments, runs or registered models",
+      long_description=long_description,
       url="https://github.com/amesar/mlflow-export-import",
       python_requires=">=3.7",
       packages=find_packages(),
