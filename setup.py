@@ -11,7 +11,7 @@ setup(name="mlflow_export_import",
       zip_safe=False,
       install_requires=[
           "mlflow>=1.15.0",
-          "pytest==5.3.5",
+          "pytest>=5.3.5",
           "wheel"
       ],
       entry_points={
